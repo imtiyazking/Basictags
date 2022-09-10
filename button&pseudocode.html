@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors and more designing</title>
+<style>
+    .container{
+        border:2px solid blue;
+        background-color: antiquewhite;
+        padding:34px;
+        margin: 34px auto;
+        width: 600px;
+
+    }
+   
+    a
+    {
+    text-decoration: none;
+    color:black;
+    }
+  
+   a:hover
+   {
+    color:black;
+    background: rgb(242, 87, 87);
+   }
+   
+   a:visited
+   {
+    background-color: yellow;
+   }
+
+   .btn:hover{
+    background: rgb(237, 92, 92);
+   }
+    
+   .btn{
+        background-color: rgb(212, 211, 211);
+        padding: 6px;
+        border: none;
+        cursor: pointer;
+        font-size: 15px;
+        border-radius: 6px;
+       }
+       h3{
+        margin: auto;
+        width: 206px;
+       }
+
+</style>
+
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is the heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio neque mollitia nihil, minima commodi dolorum illo? Repudiandae aliquid nam, excepturi laboriosam, maiores sunt deleniti sequi eius, nesciunt quisquam doloribus nulla ipsam itaque odio eveniet.</p>
+
+        <a href="https://twitter.com" class="btn">Read more</a>
+        <button class="btn">Contact us</button>
+        <button class="btn">About us</button>
+    </div>
+</body>
+</html>
